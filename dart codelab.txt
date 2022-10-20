@@ -1,0 +1,9 @@
+Observations
+
+With this example, the Dart analyzer produces an error informing you that the variables must be initialized because they're non-nullable. You'll fix that in the next section.
+Dart's main method is named main(). If you need access to command-line arguments, you can add them: main(List<String> args).
+The main() method lives at the top level. In Dart, you can define code outside of classes. Variables, functions, getters, and setters can all live outside of classes.
+The original Java example declares private instance variables using the private tag, which Dart doesn't use. You'll learn more about privacy a little later, in "Add a read-only variable."
+Neither main() nor Bicycle is declared as public, because all identifiers are public by default. Dart doesn't have keywords for public, private, or protected.
+Dart uses two-character inden
+tation by convention instead of four. You don't need to worry about Dart's whitespace conventions, thanks to a handy tool called dart format. As the Dart code conventions ( Effective Dart) say, "The official whitespace-handling rules for Dart are whatever dart format produces."
